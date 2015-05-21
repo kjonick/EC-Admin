@@ -9125,32 +9125,26 @@ Changelog:
                     </property>
                   </propertySheet>
                 </property>
-                
-                
-                                <property>
+                <property>
                   <propertyName>disableCleanup</propertyName>
-                                 <propertySheet>
-                                     <property>
+                  <propertySheet>
+                    <property>
                       <propertyName>checkedValue</propertyName>
-                      
                       <expandable>1</expandable>
-                                         <value>true</value>
+                      <value>true</value>
                     </property>
                     <property>
                       <propertyName>formType</propertyName>
-                      
                       <expandable>1</expandable>
-                                         <value>standard</value>
+                      <value>standard</value>
                     </property>
                     <property>
                       <propertyName>initiallyChecked</propertyName>
-                      
                       <expandable>1</expandable>
-                                         <value>1</value>
+                      <value>1</value>
                     </property>
                     <property>
                       <propertyName>uncheckedValue</propertyName>
-      
                       <expandable>1</expandable>
                       <value>false</value>
                     </property>
