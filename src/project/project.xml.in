@@ -9604,6 +9604,7 @@ $ec-&gt;setProperty("/projects/$[Project]/ec_visibility", "pickListOnly");
         <stepName>deleteExportedProject</stepName>
         <alwaysRun>0</alwaysRun>
         <broadcast>0</broadcast>
+        <condition>$[/javascript myProcedure.disableCleanup == true]</condition>
         <condition/>
         <description/>
         <errorHandling>failProcedure</errorHandling>
