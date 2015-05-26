@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin>
   <key>EC-Admin</key>
-  <version>2.7.2.264</version>
+  <version>2.8.0.272.0</version>
   <label>EC-Admin</label>
-  <description>A set of administrative tasks to help manage your server.
-2015-05-21 admin Fixed issue with network path on Windows for saveAllObjects</description>
+  <description>A set of tools to help with the administration of a Commander Server.</description>
   <help>help.xml</help>
-  <author>L. Rochette</author>
-  <authorUrl>mailto:lrochette@electric-cloud.com</authorUrl>
+  <author>Kathy Jonick</author>
+  <authorUrl>mailto:kathy.jonick@outlook.com</authorUrl>
 
   <commander-version min="4.1"/>
 
