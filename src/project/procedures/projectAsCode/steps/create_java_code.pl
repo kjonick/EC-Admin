@@ -6,14 +6,14 @@ my @files=("ConfigurationList.java", "ConfigurationManagementFactory.java",
            "CreateConfiguration.java", 
            "PluginConfigList.java", "PluginConfigListLoader.java");
 
-my $configure=getP("/projects/$[Project]/configure");
+my $configure=getP("/projects/$[Project]/configureCredentials");
 my $version = "$[/myJob/version]";
 my $plugin  = "$[/myJob/pluginName]";
 my $javaName= "$[/myJob/javaName]";
 
 if ($configure == undef) {
-	printf("configure property does not exist\n");
-    $ec->setProperty("summary", "skipping: no cgi-bin files to create");
+	printf("configureCredentials property does not exist\n");
+    $ec->setProperty("summary", "skipping: no java code to create");
 	exit(0);
 }
 

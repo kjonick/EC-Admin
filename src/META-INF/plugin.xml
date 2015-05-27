@@ -3,7 +3,8 @@
   <key>EC-Admin</key>
   <version>2.8.0.272.0</version>
   <label>EC-Admin</label>
-  <description>A set of tools to help with the administration of a Commander Server.</description>
+  <description>A set of administrative tasks to help manage your server.
+2015-05-25 admin Fixed help</description>
   <help>help.xml</help>
   <author>Kathy Jonick</author>
   <authorUrl>mailto:kathy.jonick@outlook.com</authorUrl>

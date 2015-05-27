@@ -3,12 +3,12 @@ $[/myProject/scripts/perlHeaderJSON]
 #list of tiles to create
 my @files=("plugin.cgi", "jobMonitor.cgi");
 
-my $configure=getP("/projects/$[Project]/configure");
+my $configure=getP("/projects/$[Project]/configureCredentials");
 my $version="$[/myJob/version]";
 my $plugin ="$[/myJob/pluginName]";
 
 if ($configure == undef) {
-	printf("configure property does not exist\n");
+	printf("configureCredentials property does not exist\n");
     $ec->setProperty("summary", "skipping: no cgi-bin files to create");
 	exit(0);
 }
